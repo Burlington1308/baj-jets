@@ -1,0 +1,27 @@
+@media (max-width: 760px) {
+    nav .mobile span {
+        display: block;
+    }
+
+    nav .nav-items {
+        width: 100vw !important;
+        height: 70vh;
+        flex-direction: column;
+        display: none;
+        margin-top: 70px !important;
+        background-color: green;
+    }
+
+    nav .nav-items a {
+        padding: 10px 0;
+        font-size: 1.5rem;
+    }
+
+    nav .nav-contact {
+        display: none
+    }
+
+    nav .nav-items.active {
+        display: flex;
+    }
+}
