@@ -17,6 +17,11 @@ body {
     width: 100vw;
 }
 
+.hero {
+    height: 80vh;
+    width: 100%;
+}
+
 nav {
     background-color: green;
     color: #fff;
@@ -29,13 +34,10 @@ nav {
 }
 
 nav .logo {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-nav .logo a {
     text-decoration: none;
     color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 nav .mobile {
@@ -57,6 +59,7 @@ nav .mobile span {
 nav .nav-items {
     width: 50%;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     padding: 10% 0;
 }
@@ -68,7 +71,7 @@ nav .nav-items a {
     transition: color 0.3s ease;
 }
 
-nav .nav-contact {
+nav .nav-items .nav-contact {
     padding: 10px 20px;
     background-color: #fff;
     color: green;

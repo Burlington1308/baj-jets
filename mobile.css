@@ -6,9 +6,7 @@
     nav .nav-items {
         width: 100vw !important;
         height: 70vh;
-        flex-direction: column;
         display: none;
-        margin-top: 70px !important;
         background-color: green;
     }
 
@@ -17,11 +15,10 @@
         font-size: 1.5rem;
     }
 
-    nav .nav-contact {
-        display: none
-    }
-
     nav .nav-items.active {
         display: flex;
+        flex-direction: column;
+        margin-top: 600px;
+        z-index: 1000;
     }
 }
