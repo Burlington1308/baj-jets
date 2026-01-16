@@ -1,24 +1,42 @@
 @media (max-width: 760px) {
-    nav .mobile span {
+    nav .mobile {
         display: block;
+        cursor: pointer;
+        z-index: 1000;
     }
 
     nav .nav-items {
-        width: 100vw !important;
-        height: 70vh;
+        flex-direction: column;
+        width: 100%;
         display: none;
-        background-color: green;
+        /*experimental*/
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.7rem !important;
+        position: absolute;
+        top: 0;
     }
 
     nav .nav-items a {
-        padding: 10px 0;
-        font-size: 1.5rem;
+        padding: 0.5rem 0;
+        /*font-size: 1.5rem;*/
     }
 
     nav .nav-items.active {
-        display: flex;
+        /*display: flex;
         flex-direction: column;
         margin-top: 600px;
+        z-index: 1000;*/
+
+        display: flex;
+        z-index: 1000;
+        background-color: green;
+        margin-top: 50px;
+        overflow-x: hidden;
+        position: absolute;
+        left: 0;
+        padding-left: 10%;
+        padding-bottom: 3vh;
         z-index: 1000;
     }
 }

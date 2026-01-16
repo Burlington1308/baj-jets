@@ -41,14 +41,14 @@ nav .logo {
 }
 
 nav .mobile {
-    display: block;
+    display: none;
     height: 50%;
     cursor: pointer;
     align-items: center;
 }
 
 nav .mobile span {
-    display: none;
+    display: block;
     width: 25px;
     height: 3px;
     border-radius: 2px;
