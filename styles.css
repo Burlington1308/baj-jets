@@ -124,3 +124,57 @@ nav .nav-items .nav-contact {
     background-color: #fff;
     color: green;
 }
+
+.services {
+    width: 100vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5vh;
+}
+
+.services h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+    background-color: #333;
+    border-radius: 15px;
+    padding: 3vh;
+    flex-wrap: wrap;
+}
+
+.service-cards .card {
+    background-color: #e2e2e2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.service-cards .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.service-cards .card a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: green;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 3vh;
+}
+
+.service-cards .card a:hover {
+    background-color: #fff;
+    color: green;
+}

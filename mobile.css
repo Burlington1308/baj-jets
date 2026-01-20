@@ -71,3 +71,22 @@
         margin-top: 20px;
     }
 }
+
+@media (max-width: 600px) {
+    /*.hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .cta-button, .cta-button2 {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }*/
+
+    .service-cards .card {
+        width: 90vw;
+    }
+}
