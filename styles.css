@@ -81,6 +81,10 @@ nav .nav-items .nav-contact {
     font-weight: bold;
 }
 
+nav .nav-items .nav-contact:hover {
+    background-color: #6fee84;
+}
+
 .hero-content {
     width: 100%;
     height: calc(80vh - 60px);
@@ -123,6 +127,16 @@ nav .nav-items .nav-contact {
 .cta-button2 {
     background-color: #fff;
     color: green;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: green;
+}
+
+.cta-button2:hover {
+    background-color: green;
+    color: #fff;
 }
 
 .services {
@@ -177,4 +191,93 @@ nav .nav-items .nav-contact {
 .service-cards .card a:hover {
     background-color: #fff;
     color: green;
+}
+
+.whatsapp-link {
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+    background-color: #e6e6e6;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.whatsapp-link img, .phone-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.whatsapp-link:hover, .phone-link:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.phone-link {
+    position: fixed;
+    bottom: 20%;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+    background-color: #e6e6e6;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.email-link {
+    position: fixed;
+    bottom: 30%;
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+    background-color: #e6e6e6;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.email-link img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.email-link:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+footer {
+    background-color: #6fee84;
+    color: #000;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+footer .social-media a:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
