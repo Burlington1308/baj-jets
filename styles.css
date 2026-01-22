@@ -251,6 +251,53 @@ nav .nav-items .nav-contact:hover {
     transition: transform 0.3s ease-in-out;
 }
 
+.faqs {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    padding: 4rem 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #e6e6e6;
+    margin-top: 2rem;
+}
+
+.faqs h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 2rem 0;
+    font-size: clamp(2rem, 5vw, 3rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.faqs-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.faq-item {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+}
+
+.faq-item h3 {
+    font-size: 1.5rem;
+}
+
+.faq-item p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
 footer {
     background-color: #6fee84;
     color: #000;
