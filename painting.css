@@ -1,0 +1,32 @@
+.service-cards ul {
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    background: #636262;
+    padding: 5vh 10%;
+    line-height: 2;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.service-cards ul li {
+    margin-bottom: 10px;
+}
+
+.service-cards a {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+}
+
+.service-cards a:hover {
+    background-color: #fff;
+    color: green;
+}
